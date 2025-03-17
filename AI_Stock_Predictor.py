@@ -5,9 +5,9 @@ import pandas as pd
 import plotly.express as px
 
 # API Keys
-GEMINI_API_KEY = "AIzaSyB8ElKvrPTYaV9kG2q4AsTXYCc6fTIk0Uo"
-NEWS_API_KEY = "5912f4b0cd844e81b06e48b907b78874"
-ALPHA_VANTAGE_API_KEY = "G9RD132Q85O2DDBY"
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+NEWS_API_KEY = "YOUR_NEWS_API_KEY"
+ALPHA_VANTAGE_API_KEY = "YOUR_ALPHA_VANTAGE_API_KEY"
 
 # Configure Gemini AI
 genai.configure(api_key=GEMINI_API_KEY) # type: ignore
